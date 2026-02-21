@@ -51,6 +51,8 @@ Returns a 32 bit unsigned integer representing relative power.
 
 You must run the algorithm once for every target frequency. So for FSK demodulation, you would run it for twice, once for each frequency, and compare the two return values; whichever is higher is your bit ( f_lower > f_higher = '0', f_higher > f_lower = '1').
 
+Note that in the above terminal example, a 1600 Hz input is used, and a Goertzel is ran for 1200 Hz and 2000 Hz, and the results are predictably identical. My guess is the 2000 Hz returns a higher number due to quantization.
+
 
 
 
