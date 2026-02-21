@@ -37,7 +37,7 @@ This is the fixed point coefficient which changes based on your target frequency
 
 The program outputs the following in the serial terminal:
 
-<img width="919" height="248" alt="Screenshot 2026-02-21 123525" src="https://github.com/user-attachments/assets/985ef856-5bc1-45d5-be5e-7d707a577502" />
+<img width="921" height="245" alt="Screenshot 2026-02-21 133254" src="https://github.com/user-attachments/assets/ad320309-9c32-4390-99c9-11efe36595a2" />
 
 The function: goertzel_power_q14(const int16_t *x, int N, int16_t coeff_q14)
 
