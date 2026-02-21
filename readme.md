@@ -53,6 +53,8 @@ You must run the algorithm once for every target frequency. So for FSK demodulat
 
 Note that in the above terminal example, a 1600 Hz input is used, and a Goertzel is ran for 1200 Hz and 2000 Hz, and the results are predictably identical. My guess is the 2000 Hz returns a higher number due to quantization.
 
+*Lastly, if running for a real application, be sure to normalize the DC offset (already pre-computed here by subtracting 512 from each sample).
+
 
 
 
